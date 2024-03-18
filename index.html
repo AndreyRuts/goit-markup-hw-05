@@ -477,5 +477,48 @@
         </div>
       </div>
     </footer>
+    <div class="modal-overlay">
+      <div class="modal">
+        <form class="form" name="call-back-form" autocomplete="off">
+          <p class="form-title">
+            Leave your contacts and we will call you back
+          </p>
+          <ul class="npe-form-list">
+            <li class="npe-form-list-item">
+              <label class="npe-form-label" for="user-name"
+                >Name<input class="form-input" type="text" name="user-name"
+              /></label>
+            </li>
+            <li class="npe-form-list-item">
+              <label class="npe-form-label" for="user-phone"
+                >Phone<input class="form-input" type="tel" name="user-phone"
+              /></label>
+            </li>
+            <li class="npe-form-list-item">
+              <label class="npe-form-label" for="user-email"
+                >Email<input class="form-input" type="email" name="user-email"
+              /></label>
+            </li>
+          </ul>
+
+          <label class="form-label" for="user-messege"
+            >Comment
+            <textarea
+              class="textarea-input"
+              placeholder="Text input"
+              name="user-messege"
+              id=""
+              cols="30"
+              rows="10"
+            ></textarea>
+            <label class="form-label" for=""
+              ><input class="form-input-checkbox" type="checkbox" />I accept the
+              terms and conditions of the <a href="">Privacy Policy</a></label
+            >
+          </label>
+          <button class="form-btn" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
