@@ -601,15 +601,11 @@ img {
 .form-exit-decor:hover {
   background-color: #404bbf;
   border: none;
+  fill: #ffffff;
 }
 .form-exit-decor:focus {
   background-color: #404bbf;
   border: none;
-}
-.form-decor-icon:hover {
-  fill: #ffffff;
-}
-.form-decor-icon:focus {
   fill: #ffffff;
 }
 .input:focus {
