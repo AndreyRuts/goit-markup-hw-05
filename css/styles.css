@@ -585,6 +585,7 @@ img {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  display: inline-flex;
   margin-right: 12px;
 }
 .checkbox-privacy-link {
@@ -624,10 +625,7 @@ img {
   border-color: #4d5ae5;
 }
 
-.costom-checkbox-input:checked
-  + .checkbox-label
-  .checkbox-label-span
-  .input-checkbox-icon {
+.costom-checkbox-input:checked + .checkbox-label span .input-checkbox-icon {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
